@@ -1,0 +1,30 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+#myH1{
+    display:block;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 3rem;
+}
+#myH2{
+    display:block;
+    text-align: center;
+    font-family: Verdana;  
+    font-size: 3rem;
+}
+#mySubmit{
+    padding: 10px 20px;
+    color: white;
+    background-color: hsl(150, 60%, 70%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+#mySubmit:hover{
+    background-color: hsl(150, 60%, 60%);
+}
+#mySubmit:active{
+    background-color: hsl(150, 60%, 50%);
+}
